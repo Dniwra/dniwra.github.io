@@ -1,0 +1,131 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #f2f2f2;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+img {
+    margin: 0 auto;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+	color: #f2f2f2;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+li h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+li p {
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+form textarea {
+	height: 150px;
+	resize: vertical;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
